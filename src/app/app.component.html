@@ -1,0 +1,17 @@
+<!-- <mat-toolbar color="primary" *ngIf="user$ | async as user">
+    <div class="spacer"></div>
+    <ng-container *ngIf="user$ | async as user; else loginButton">
+
+    </ng-container>
+
+    <ng-template #loginButton>
+        <button mat-button routerLink="login">
+      <mat-icon>login</mat-icon>
+      Login
+    </button>
+    </ng-template>
+</mat-toolbar> -->
+
+<div class="content">
+    <router-outlet></router-outlet>
+</div>
