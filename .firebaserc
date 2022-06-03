@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angular-firebase-chatapp": {
+      "hosting": {
+        "chatapp": [
+          "angular-firebase-chatapp"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angular-firebase-chatapp"
+  }
+}
